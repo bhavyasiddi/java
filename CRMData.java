@@ -37,8 +37,8 @@ System.out.println("------------------------------------------------------------
 //Entities for Interactions
 
 String interactionId = "INT001";
-//String customerId = "CUST12345";  // reference to Customer
-String interactionType = "Email";  // e.g., Call, Email, Meeting
+String customerId = "CUST12345";  
+String interactionType = "Email";  //  Call, Email, Meeting
 String interactionDate = "06/13/2025";
 String notes = "Discussed product features and pricing.";
 
@@ -52,10 +52,10 @@ System.out.println("------------------------------------------------------------
 
 //Entities for Sales Opportunity
 String opportunityId = "OPP001";
-//String customerId = "CUST12345";  // reference to Customer
+String customerId = "CUST12345";  
 String opportunityName = "Enterprise Software Deal";
 double estimatedValue = 15000.00;
-String stage = "Negotiation";  // e.g., Prospecting, Proposal, Closed Won
+String stage = "Negotiation";  // Prospecting, Proposal, Closed 
 String expectedCloseDate = "06/13/2025";
 
 System.out.println("Opportunity ID is : " + opportunityId);
@@ -67,9 +67,9 @@ System.out.println("Opportunity Date occurred is on : " + expectedCloseDate);
 
 System.out.println("---------------------------------------------------------------");
 
-//
+//Entities for Ticket
 String ticketId = "TKT1001";
-//String customerId = "CUST12345";  // reference to Customer
+String customerId = "CUST12345";   
 String issueDescription = "Login not working on mobile app.";
 String status = "Open";  // e.g., Open, In Progress, Closed
 String ticketDate = "06/13/2025";
